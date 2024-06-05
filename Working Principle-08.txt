@@ -1,0 +1,18 @@
+WORKING PRINCIPLE OF THE PROJECT:
+
+Alzheimer's disease detection using VGG (Visual Geometry Group) neural networks involves several key steps:
+
+1. Data Collection: Collect brain MRI or CT scans labeled as healthy or Alzheimer's disease-affected.
+
+2. Preprocessing: Standardize image sizes, normalize pixel values, and augment the dataset to improve model robustness.
+
+3. Model Architecture: Use VGG, a CNN with multiple convolutional and pooling layers for feature extraction.
+
+4. Transfer Learning: Fine-tune a pre-trained VGG model on the specific Alzheimer's disease imaging dataset.
+
+5. Training: Train the VGG model to differentiate between healthy and Alzheimer's-affected brain images.
+
+6. Evaluation: Evaluate model performance using accuracy, precision, recall, and F1 score on validation data.
+
+7. Deployment: Deploy the trained model to assist in clinical diagnosis of Alzheimer's disease from brain scans.
+

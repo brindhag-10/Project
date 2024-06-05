@@ -1,0 +1,22 @@
+HOW TO RUN THE CODE :
+
+1. Install libraries:
+   bash
+   pip install numpy matplotlib tensorflow keras scikit-learn seaborn
+   
+
+2. Organize dataset:
+   
+   Data/class1/img1.jpg, Data/class2/img1.jpg, ...
+   
+
+3. Save script: Save code as train_vgg16.py.
+
+4. Run script:
+    bash
+    python train_vgg16.py
+   
+
+5. Monitor output: Check training progress, accuracy, and confusion matrix.
+
+This overview outlines the main steps to prepare, run, and interact with the program.
